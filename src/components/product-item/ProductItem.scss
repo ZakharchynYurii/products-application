@@ -1,0 +1,16 @@
+.book-item{
+  &-wrapper{
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+
+    .edit{
+      color: cornflowerblue;
+      cursor: pointer;
+    }
+
+    .delete{
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
